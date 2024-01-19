@@ -1,0 +1,130 @@
+.SelectCountryBox{
+
+
+display: flex;
+justify-content: center;
+align-items: center;
+height: 100vh;
+flex-direction: column;
+gap: 50px;
+
+
+}
+
+.Managebtn
+{
+    border-radius: 8px;
+    background-color: rgb(47, 47, 115);
+    color: white;
+    height: 40px;
+    width: 110px;
+}
+.tablepage{
+    border: 2px solid beige;
+    height: 100vh;
+    
+}
+
+.btnsection{
+  
+    /* width:800px; */
+    display: flex;
+    justify-content: center;
+    gap: 54px;
+    padding: 80px;
+}
+.datatable{
+
+  
+    display: flex;
+    justify-content: center;
+   
+
+}
+.datatable table {
+    border-collapse: separate;
+    border-spacing: 20px; 
+  }
+
+  .datatable table, th, td {
+   
+    padding: 8px;
+    text-align: left;
+  }
+.addbtn
+{
+    border-radius: 8px;
+    background-color: rgb(137, 72, 181);
+    border: none;
+   height: 40px;
+   width: 130px;
+   color: white;
+}
+.homebtn
+{
+    border-radius: 8px;
+    background-color: rgb(80, 34, 173);
+    border: none;
+   height: 40px;
+   width: 90px;
+   color: white;
+
+}  
+.editbtn{
+    border-radius: 8px;
+    background-color: rgb(101, 161, 101);
+    border: none;
+   height: 40px;
+   width: 90px;
+   color: white;
+
+}
+.deletebtn
+{
+    border-radius: 8px;
+    background-color: red;
+    border: none;
+   height: 40px;
+   width: 90px;
+   color: white;
+
+}
+
+
+.centerbox{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+    gap: 25px;
+
+}
+
+.btn{
+   
+    width: 320px;
+    display:flex;
+    justify-content: space-between;
+}
+
+.addupbtn
+{ border-radius: 8px;
+    background-color: rgb(124, 74, 185);
+    border: none;
+   height: 40px;
+   width: 90px;
+   color: white;
+
+
+}
+.cancelbtn{
+    border-radius: 8px;
+    background-color: red;
+    border: none;
+   height: 40px;
+   width: 90px;
+   color: white;
+
+}
